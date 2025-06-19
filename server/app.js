@@ -1,5 +1,5 @@
 /**
- * Project Name: Connectify
+ * Project Name: Shakti
  * Description: A social networking platform with automated content moderation and context-based authentication system.
  */
 

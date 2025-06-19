@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import ContextAuthModal from "../components/modals/ContextAuthModal";
 import { RxCross1 } from "react-icons/rx";
 import ButtonLoadingSpinner from "../components/loader/ButtonLoadingSpinner";
-import Logo from "../assets/Connectify.png";
+import Logo from "../assets/shaktiimg.png";
 
 const SignUpNew = () => {
   const [loading, setLoading] = useState(false);
@@ -100,7 +100,7 @@ const SignUpNew = () => {
       <div className="container mx-auto flex min-h-screen items-center justify-center px-6">
         <form className="w-full max-w-md" onSubmit={handleSubmit}>
           <div className="mx-auto flex justify-center">
-            <img className="h-7 w-auto sm:h-8" src={Logo} alt="" />
+            <img className="h-7 w-auto sm:h-8" src={Logo} alt="Shakti Logo" />
           </div>
           {signUpError &&
             Array.isArray(signUpError) &&

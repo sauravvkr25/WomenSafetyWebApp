@@ -48,5 +48,10 @@
     "name": "Programming",
     "description": "A community for programmers to discuss programming languages, frameworks, and software development. From web development to mobile apps, this community has all the code you need to build your next project!",
     "banner": "https://raw.githubusercontent.com/nz-m/public-files/main/banners/Programming.jpg"
+  },
+  {
+    "name": "Shakti Members",
+    "description": "A community for all Shakti app members to connect and support each other.",
+    "banner": "https://raw.githubusercontent.com/nz-m/public-files/main/banners/Community.jpg"
   }
 ]
