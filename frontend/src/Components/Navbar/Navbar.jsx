@@ -83,6 +83,16 @@ const Navbar = () => {
                                                 <a className="nav-link " aria-current="page">Contact Us</a>
                                             </li>
                                         </Link>
+                                        <li className="nav-item">
+                                            <a 
+                                                className="nav-link" 
+                                                aria-current="page"
+                                                style={{ cursor: 'pointer' }}
+                                                onClick={() => window.open('http://localhost:3004/signin', '_blank')}
+                                            >
+                                                Community
+                                            </a>
+                                        </li>
                                     </ul>
 
                                     {!auth.user ? (<ul className='mt-2 text-center'>
@@ -142,6 +152,16 @@ const Navbar = () => {
                                             <a className="nav-link " aria-current="page">Report Incident</a>
                                         </li>
                                     </Link>
+                                    <li className="nav-item">
+                                        <a 
+                                            className="nav-link" 
+                                            aria-current="page"
+                                            style={{ cursor: 'pointer' }}
+                                            onClick={() => window.open('http://localhost:3004/signin', '_blank')}
+                                        >
+                                            Community
+                                        </a>
+                                    </li>
                                 </ul>
 
                                 {!auth.user ? (<ul className='mt-2 text-center'>

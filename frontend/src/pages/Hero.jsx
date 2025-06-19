@@ -13,8 +13,9 @@ const Hero = () => {
                             <img src={hero} alt='Hello Carwale' />
                         </div>
                         <div className="col-md-6 my-5 my-md-0 text-center text-md-start">
-                            <p className="banner-subtitle">Your Safety our Priority</p>
-                            <h1 className="banner-title">Help us bring <span >Women Safety</span> to Reality with us</h1>
+                            <p className="banner-subtitle">"सुरक्षित नारी सशक्त समाज"</p>
+                            <h1 className="banner-title">नारी, नारी का नहीं, देती आयी साथ।
+                           <span >  शायद उसका इसलिए,</span>  रिक्त रहा है हाथ।।</h1>
                             <div className="learn-more-btn-section" >
                                 <Link to='/emergency' style={{backgroundColor:"red"}} className="nav-link learn-more-btn btn-header" href="#car">Emergency</Link>
                             </div>

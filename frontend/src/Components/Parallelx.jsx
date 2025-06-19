@@ -13,7 +13,7 @@ const Parallelx = () => {
                                 Your Safety Our priority
                             </h1>
                             <p class="mt-3 mb-5 para-width text-white" style={{ textAlign: 'justify' }}>
-                                We at Safe Siren ensure that each and every person is secure and
+                                We at Shakti ensure that each and every person is secure and
                                 get help if required as soon as possible with help of locatiion
                                 sharing feature and Emergency Service available 24/7
                             </p>

@@ -1,0 +1,350 @@
+.support-group-container {
+  padding-top: 80px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.support-group-header {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px 0;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: #667eea;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.back-btn:hover {
+  color: #5a6fd8;
+}
+
+.support-group-title {
+  color: #333;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.support-group-icon {
+  color: #667eea;
+  font-size: 2rem;
+}
+
+.support-group-subtitle {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+
+.support-group-stats {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-number {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #667eea;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.support-group-content {
+  padding: 0 0 50px 0;
+}
+
+/* Tab Navigation */
+.tab-navigation {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  background: white;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.tab-btn {
+  background: none;
+  border: none;
+  padding: 12px 24px;
+  margin: 0 5px;
+  border-radius: 10px;
+  font-weight: 600;
+  color: #666;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tab-btn:hover {
+  background: #f8f9fa;
+  color: #333;
+}
+
+.tab-btn.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+/* Groups Section */
+.groups-section {
+  margin-bottom: 30px;
+}
+
+.group-card {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.group-card:hover {
+  transform: translateY(-2px);
+}
+
+.group-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.group-info {
+  flex: 1;
+}
+
+.group-name {
+  margin: 0 0 5px 0;
+  color: #333;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.group-category {
+  background: #e3f2fd;
+  color: #1976d2;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.group-members {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.group-description {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.group-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* Discussions Section */
+.discussions-section {
+  margin-bottom: 30px;
+}
+
+.discussions-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.discussions-header h3 {
+  margin: 0;
+  color: #333;
+  font-weight: 600;
+}
+
+.discussion-card {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.discussion-card:hover {
+  transform: translateY(-2px);
+}
+
+.discussion-card.pinned {
+  border-left: 4px solid #28a745;
+}
+
+.pinned-badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #28a745;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.discussion-title {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.discussion-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.discussion-author {
+  font-weight: 500;
+}
+
+.discussion-stats {
+  color: #999;
+}
+
+.discussion-time {
+  color: #999;
+}
+
+/* Resources Section */
+.resources-section {
+  margin-bottom: 30px;
+}
+
+.resource-card {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.resource-card:hover {
+  transform: translateY(-5px);
+}
+
+.resource-icon {
+  font-size: 3rem;
+  color: #667eea;
+  margin-bottom: 20px;
+}
+
+.resource-card h4 {
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.resource-card p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .support-group-title {
+    font-size: 2rem;
+  }
+  
+  .support-group-stats {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .tab-navigation {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .tab-btn {
+    margin: 0;
+  }
+  
+  .discussions-header {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+  
+  .discussion-meta {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+
+@media (max-width: 576px) {
+  .support-group-header {
+    padding: 30px 0;
+  }
+  
+  .support-group-title {
+    font-size: 1.8rem;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .group-header {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .group-actions {
+    flex-direction: column;
+  }
+} 

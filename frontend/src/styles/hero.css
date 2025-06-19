@@ -9,7 +9,7 @@
     #d5c2ff,
     #ba9aff,
     #9e63ff,
-    #8400ff
+    hsl(0, 100%, 50%)
   );
   background-size: cover;
   justify-content: center;
@@ -20,7 +20,7 @@
   font-weight: 700;
   line-height: 1.5;
   margin-bottom: 15px;
-  color: blueviolet;
+  color: #c40505;
 }
 .banner_wrapper .banner-title {
   font-weight: 800;

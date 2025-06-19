@@ -1,3 +1,4 @@
+import React from 'react';
 import {BrowserRouter as Router, Route,Routes} from 'react-router-dom'
 import { Toaster } from 'react-hot-toast';
 import './App.css';
@@ -8,6 +9,8 @@ import Login from './pages/Auth/Login';
 import Register from './pages/Auth/Register';
 import Emergency from './pages/Emergency';
 import Report from './pages/Report';
+import Community from './pages/Community';
+import SupportGroup from './pages/SupportGroup';
 import Dashboard from './pages/Dashboard';
 import Incident from './pages/IncidentReport'
 import CloseFile from './pages/CloseFile'
@@ -29,6 +32,8 @@ function App() {
       <Route path='/login' element={<Login/>} />
       <Route path='/register' element={<Register/>} />
       <Route path='/report' element={<Report/>} />
+      <Route path='/community' element={<Community/>} />
+      <Route path='/support-group' element={<SupportGroup/>} />
       <Route path='/emergency' element={<Emergency/>} />
       <Route path='/dashboard' element={<Dashboard/>} />
       <Route path='/incident' element={<Incident/>} />

@@ -26,14 +26,11 @@ const About = () => {
             <div className="col-sm-12 col-lg-5 text-center text-lg-start">
               <p className="about_number">1</p>
               <h2 className="about_title">
-                Safe Siren is here for your safety
+                Shakti is here for your safety
               </h2>
               <p className="about_text " style={{ textAlign: "justify" }}>
-                We ensure that each and every human being reaches home to safety
-                , with advance features like mail notification , mobile
-                messaging and live location sharing we are the trusted bodyguard
-                for you.
-              </p>
+                We ensure that each and every Women being reaches home to safety
+                Shashakt Nari Shashakt Desh               </p>
               {/* <div className="my-5">
                 <a className="learn-more-btn" href="#cars">
                   Enrole Now
@@ -55,7 +52,7 @@ const About = () => {
                 <p className="about_number">2</p>
                 <h2 className="about_title">The best reliable source</h2>
                 <p className="about_text" style={{ textAlign: "justify" }}>
-                  We're more than just a webapp; we're your trusted partner in
+                  We're Not only a webapp; we're your Friend,Brother and Sister in
                   reaching home safe..
                 </p>
                 <div className="mt-5">
